@@ -95,4 +95,3 @@ These basic programming patterns will become useful later when working with **da
 
 **Day 2 / 180 completed ✅**
 
-**Next:** Continue building Python fundamentals and gradually move toward more challenging programming and problem-solving tasks.
