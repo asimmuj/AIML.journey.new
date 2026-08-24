@@ -171,3 +171,4 @@ The next stages will build on these fundamentals and gradually introduce more ad
 
 **Day 3 / 180 — Python Functions**
 
+> Learn → Understand → Implement → Build → Explain → Review → Improve
