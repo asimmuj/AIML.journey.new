@@ -10,7 +10,7 @@
 # checkeven(10)
 # checkeven(7)
 # checkeven(24)
-
+#checkeven(31)
 
 # def findmax(a,b):
 #     if a>b:
