@@ -300,4 +300,3 @@ Day 5
 More Python Problem Solving
 ```
 
-The goal is not just to make the program run, but to understand **why each part exists and how the pieces work together**.
