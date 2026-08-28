@@ -10,4 +10,8 @@
 #         count+=1
 # print(count)
 
+# def find_max(numbers):
+#     return max(numbers)
+# numbers = [10, 45, 23, 67, 12]
+# print(find_max(numbers))
 
