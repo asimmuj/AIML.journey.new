@@ -1,17 +1,16 @@
-#tracing mid values
-numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45]
-target = 35
-
-def binarysearch(numbers,target):
-    low=0
-    high=0
+def binarsearch(numbers,target):
+    low = 0
+    high = len(numbers)-1
     while low<=high:
-        mid=(low+high)//2
+        mid= (low+high)//2
         if numbers[mid]==target:
-            return numbers[mid]
+            return mid
         elif target>numbers[mid]:
-            low=mid+1
+            low = mid+1
         else:
             high=mid-1
     return -1
-print(binarysearch(numbers,target))
+numbers = [2, 5, 8, 12, 16, 23, 38, 56, 72]
+target=int(input("enter a number to search: "))
+index=binarsearch(numbers,target)
+print("index: ",index)
