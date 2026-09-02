@@ -21,4 +21,4 @@ result = first_occurrence(numbers, target)
 if result != -1:
     print("First occurrence:", result)
 else:
-    print("Number not found!")
+    print("Number not found!")...
