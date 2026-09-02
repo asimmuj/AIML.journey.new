@@ -40,4 +40,4 @@ if index != -1:
     print("Comparisons:", comparisons)
 else:
     print("\nStudent not found!")
-    print("Comparisons:", comparisons)...
+    print("Comparisons:", comparisons)
