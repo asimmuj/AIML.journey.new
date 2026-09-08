@@ -16,4 +16,3 @@ def reverse_number(n, result=0):
 number = int(input("Enter a positive integer: "))
 print("Number of digits:", count_digits(number))
 print("Sum of digits:", sum_digits(number))
-print("Reverse:", reverse_number(number))
