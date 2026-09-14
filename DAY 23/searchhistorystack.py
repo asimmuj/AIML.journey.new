@@ -1,0 +1,11 @@
+stack=[]
+stack.append("google.com")
+stack.append("github.com")
+stack.append("claude.ai")
+stack.append("chatgpt.com")
+print("search history: ",stack)
+a=stack.pop()
+b=stack.pop()
+print("history remaining: ", stack)
+print("history deleted: ",a, b)
+print("current page: ",stack[-1])
