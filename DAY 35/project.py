@@ -35,11 +35,5 @@ students["total"] = students["Python"] + students["Math"] + students["ML"]
 
 # Average marks
 students["average"] = students["total"] / 3
-
-# Pass or Fail
-students["result"] = students["average"].apply(
-    lambda x: "Pass" if x >= 40 else "Fail"
-)
-
 print("\nFinal Student Report:")
 print(students)
