@@ -8,6 +8,7 @@
 # print(df.info())
 
 #exercise 3
+
 import pandas as pd
 df=pd.read_csv("titanic.csv",usecols=["Name", "Age"])
 print(df)
