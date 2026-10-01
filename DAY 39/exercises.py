@@ -76,3 +76,4 @@
 # print("\nFinal missing values:")
 # print(df.isnull().sum())
 # print("\nFinal duplicate records:", df.duplicated().sum())
+#done with todays exercises
