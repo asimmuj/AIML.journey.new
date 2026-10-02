@@ -40,4 +40,4 @@ print(df.isnull().sum())
 print("\nDuplicates after cleaning:", df.duplicated().sum())
 # Save cleaned dataset
 df.to_csv("cleaned_students_raw.csv", index=False)
-print("\nCleaned data saved successfully")
+print("\nCleaned data saved successfully!")
