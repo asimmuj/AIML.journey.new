@@ -1,0 +1,13 @@
+student_id,name,age,marks,city,department
+101,Ali,20,85,Hyderabad,CSE
+102,Sara,21,,Delhi,ECE
+103,Ahmed,19,92,hyderabad,CSE
+104,Zara,,78,Mumbai,IT
+105,Omar,22,150,Delhi,CSE
+106,Ayesha,20,88,Mumbai,ECE
+107,Ali,20,85,Hyderabad,CSE
+108,Rehan,19,76,Delhi,it
+109,Fatima,21,91,,CSE
+110,Usman,20,84,Hyderabad,ECE
+111,Hina,twenty,89,Mumbai,IT
+112,Sameer,22,67,Delhi,CSE
