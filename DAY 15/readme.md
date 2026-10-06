@@ -172,5 +172,3 @@ Expected ranking:
 4. Ali - 78
 5. Ahmed - 68
 ```
-
-The
