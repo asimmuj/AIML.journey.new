@@ -28,12 +28,12 @@
 # plt.show()
 
 #exercise 4
-import matplotlib.pyplot as plt
-marks = [45, 52, 55, 60, 61, 65, 67, 70,
-         72, 73, 75, 78, 80, 82, 85, 88,
-         90, 92, 95]
-plt.hist(marks, bins=5)
-plt.title("marks")
-plt.xlabel("marks")
-plt.ylabel("no of students")
-plt.show()
+# import matplotlib.pyplot as plt
+# marks = [45, 52, 55, 60, 61, 65, 67, 70,
+#          72, 73, 75, 78, 80, 82, 85, 88,
+#          90, 92, 95]
+# plt.hist(marks, bins=5)
+# plt.title("marks")
+# plt.xlabel("marks")
+# plt.ylabel("no of students")
+# plt.show()
