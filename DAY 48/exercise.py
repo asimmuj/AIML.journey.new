@@ -28,3 +28,12 @@ marks = np.array([
 print(marks)
 print("Shape:", marks.shape)
 print("Dimensions:", marks.ndim)
+
+#exercise 4
+A = [
+    [1, 2, 3],
+    [4, 5, 6]
+]
+
+print("Number of rows:", len(A))
+print("Number of columns:", len(A[0]))
