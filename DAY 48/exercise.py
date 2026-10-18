@@ -16,3 +16,15 @@ A = np.array([
 print(A[1, 0])
 
 #exercise 3
+import numpy as np
+
+marks = np.array([
+    [80, 75, 90],
+    [85, 92, 88],
+    [70, 78, 82],
+    [65, 80, 72]
+])
+
+print(marks)
+print("Shape:", marks.shape)
+print("Dimensions:", marks.ndim)
