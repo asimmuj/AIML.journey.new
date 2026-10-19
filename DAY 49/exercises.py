@@ -56,3 +56,11 @@ print(B)
 print("Matrix multiplication:")
 print(result)
 
+#exercise 5
+import numpy as np
+A = np.zeros((3, 2))
+B = np.zeros((2, 4))
+result = A @ B
+print("Shape of A:", A.shape)
+print("Shape of B:", B.shape)
+print("Shape of result:", result.shape)
