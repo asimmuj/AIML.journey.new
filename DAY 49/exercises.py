@@ -28,3 +28,31 @@ print("After multiplication:")
 print(result)
 
 #exercise 3
+import numpy as np
+A = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+])
+print("Original matrix:")
+print(A)
+print("Transpose:")
+print(A.T)
+
+#exercise 4
+import numpy as np
+A = np.array([
+    [1, 2],
+    [3, 4]
+])
+B = np.array([
+    [2, 0],
+    [1, 2]
+])
+result = A @ B
+print("Matrix A:")
+print(A)
+print("Matrix B:")
+print(B)
+print("Matrix multiplication:")
+print(result)
+
