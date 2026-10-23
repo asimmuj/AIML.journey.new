@@ -11,7 +11,7 @@ else:
     probability = both_pass / python_pass
     print("\n--- Student Probability Analyzer ---")
     print("Total students:", total_students)
-    print("Passed Python:", python_pass)
-    print("Passed both subjects:", both_pass)
+    print("students Passed Python:", python_pass)
+    print("students Passed both subjects:", both_pass)
     print("P(Math | Python):", round(probability, 2))
     print("Probability percentage:", round(probability * 100, 2), "%")
