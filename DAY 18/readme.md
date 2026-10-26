@@ -64,5 +64,5 @@ Understanding the base case, choosing the correct return value, and tracing how 
 ## What's Next?
 Day 19 - Recursion Tracing and Problem Solving
 
-## Progress
+# Progress
 Completed Day 18 of my 180-Day AI/ML Learning Roadmap.
