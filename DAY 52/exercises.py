@@ -10,7 +10,12 @@
 # median=statistics.median(num)
 # print("Median: ",median)
 
-#exercise 3
-import statistics
-mode=statistics.mode([2, 4, 4, 5, 6, 6, 6, 8])
-print("mode: ",mode)
+# #exercise 3
+# import statistics
+# mode=statistics.mode([2, 4, 4, 5, 6, 6, 6, 8])
+# print("mode: ",mode)
+
+#exercise 4
+num=[15, 25, 35, 45, 100]
+range=max(num)-min(num)
+print(range)
