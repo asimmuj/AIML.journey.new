@@ -11,3 +11,6 @@
 # print("Median: ",median)
 
 #exercise 3
+import statistics
+mode=statistics.mode([2, 4, 4, 5, 6, 6, 6, 8])
+print("mode: ",mode)
