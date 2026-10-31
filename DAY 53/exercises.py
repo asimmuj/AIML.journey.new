@@ -53,3 +53,21 @@ if variance_A < variance_B:
     print("\nDataset A is more consistent.")
 else:
     print("\nDataset B is more consistent.")
+
+#exercise 4
+numbers = []
+for i in range(5):
+    number = float(input("Enter a number: "))
+    numbers.append(number)
+mean = sum(numbers) / len(numbers)
+total = 0
+for number in numbers:
+    difference = number - mean
+    total += difference ** 2
+variance = total / len(numbers)
+std_dev = variance ** 0.5
+print("\nResults")
+print("Numbers:", numbers)
+print("Mean:", mean)
+print("Variance:", variance)
+print("Standard Deviation:", std_dev)
