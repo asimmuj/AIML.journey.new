@@ -32,3 +32,22 @@ print("Correlation:", correlation)
 if abs(correlation) < 0.01:
     print("No linear correlation")
     print("But a nonlinear relationship exists.")
+
+#exercise 4
+import numpy as np
+x = [10, 20, 30, 40, 50]
+y = [5, 15, 25, 35, 45]
+mean_x = np.mean(x)
+mean_y = np.mean(y)
+covariance = np.cov(x, y)[0][1]
+correlation = np.corrcoef(x, y)[0][1]
+print("Mean of X:", mean_x)
+print("Mean of Y:", mean_y)
+print("Covariance:", covariance)
+print("Correlation:", correlation)
+if correlation > 0:
+    print("Positive relationship")
+elif correlation < 0:
+    print("Negative relationship")
+else:
+    print("No linear relationship")
