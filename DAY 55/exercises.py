@@ -8,3 +8,10 @@ for i in range(experiments):
         even+=1
 probability=even/experiments
 print("probability: ",probability)
+
+#exercise 2
+success = 0.80
+failure = 1 - success
+print("Probability of success:", success)
+print("Probability of failure:", failure)
+print("Distribution: Bernoulli")
