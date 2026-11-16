@@ -17,15 +17,27 @@
 # print("Distribution: Bernoulli")
 
 #exercise 3
-import random
-experiments=4
-heads=0
-tails=0
-for i in range(experiments):
-    result=random.choice([0,1])
-    if result==1:
-        heads+=1
-    else:
-        tails+=1
-probability=heads/experiments
-print(probability)
+# import random
+# experiments=4
+# heads=0
+# tails=0
+# for i in range(experiments):
+#     result=random.choice([0,1])
+#     if result==1:
+#         heads+=1
+#     else:
+#         tails+=1
+# probability=heads/experiments
+# print(probability)
+
+#exercise 4
+# import math
+# n = 10
+# k = 9
+# p = 0.90
+# probability = (
+#     math.comb(n, k) *
+#     (p ** k) *
+#     ((1 - p) ** (n - k))
+# )
+# print("Probability of exactly 9 defect-free products:", probability)
