@@ -41,3 +41,11 @@
 #     ((1 - p) ** (n - k))
 # )
 # print("Probability of exactly 9 defect-free products:", probability)
+
+#exercise 5
+# Discrete data
+students = [1, 2, 3, 4, 5]
+# Continuous data
+heights = [165.5, 170.2, 168.7, 175.3, 172.8]
+print("Discrete values:", students)
+print("Continuous values:", heights)
