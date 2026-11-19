@@ -1,0 +1,13 @@
+import sympy as sp
+x,y=sp.symbols('x y')
+f=input("enter the expression to differentite partially with x, y: ")
+dx=sp.diff(f,x)
+dy=sp.diff(f,y)
+print("partial derivative wrt x: ",dx)
+print("partial derivative wrt y: ",dy)
+xval=int(input("enter a value for x: "))
+yval=int(input("enter a value for y: "))
+valuex=dx.subs(x,xval)
+valuey=dy.subs(y,yval)
+print("partial derivative wrt x at", xval,":", valuex)
+print("partial derivative wrt y at", yval,":", valuey)
