@@ -26,3 +26,14 @@ dy=sp.diff(f,y)
 valuey=dy.subs(y,1)
 print(valuex)
 print(valuey)
+
+#exercise 4
+import sympy as sp
+x,y,z=sp.symbols('x y z')
+f=x**2+y**2+z**2+3*x*y
+dx=sp.diff(f,x)
+dy=sp.diff(f,y)
+dz=sp.diff(f,z)
+print(dx)
+print(dy)
+print(dz)
