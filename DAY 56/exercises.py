@@ -26,3 +26,12 @@ derivative=s.diff(f,x)
 print("derivative: ",derivative)
 value=derivative.subs(x,2)
 print("derivative at x=2: ",value)
+
+#exercise 5
+import sympy as sp
+x-sp.symbols('x')
+f=4*x**2+3*x+1
+derivative=sp.diff(f,x)
+print("derivative: ",derivative)
+value=derivative.subs(x,2)
+print("derivative at x=2: ", value)
